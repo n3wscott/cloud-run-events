@@ -21,8 +21,8 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/messaging/v1alpha1"
-	pubsubv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
+	v1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/apis/messaging/v1alpha1"
+	pubsubv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

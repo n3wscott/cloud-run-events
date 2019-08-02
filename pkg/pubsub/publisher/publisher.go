@@ -24,7 +24,7 @@ import (
 	cloudevents "github.com/cloudevents/sdk-go"
 	cepubsub "github.com/cloudevents/sdk-go/pkg/cloudevents/transport/pubsub"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/kncloudevents"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/kncloudevents"
 )
 
 // Publisher implements the Pub/Sub adapter to deliver Pub/Sub messages from a

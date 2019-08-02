@@ -26,7 +26,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/pubsub/publisher"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/pubsub/publisher"
 )
 
 type envConfig struct {

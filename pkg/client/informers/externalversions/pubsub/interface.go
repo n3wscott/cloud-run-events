@@ -19,8 +19,8 @@ limitations under the License.
 package pubsub
 
 import (
-	internalinterfaces "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/informers/externalversions/pubsub/v1alpha1"
+	internalinterfaces "github.com/googlecloudplatform/cloud-run-events/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/client/informers/externalversions/pubsub/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

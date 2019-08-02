@@ -19,7 +19,7 @@ package resources
 import (
 	"testing"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
 	"github.com/google/go-cmp/cmp"
 	v1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

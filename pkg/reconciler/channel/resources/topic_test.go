@@ -23,8 +23,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/messaging/v1alpha1"
-	pubsubv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/apis/messaging/v1alpha1"
+	pubsubv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
 )
 
 func TestMakeTopic(t *testing.T) {

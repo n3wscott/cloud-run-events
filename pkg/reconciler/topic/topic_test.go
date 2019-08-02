@@ -41,15 +41,15 @@ import (
 	"knative.dev/pkg/controller"
 	logtesting "knative.dev/pkg/logging/testing"
 
-	pubsubv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/pubsub/operations"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler/pubsub"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler/topic/resources"
+	pubsubv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/pubsub/operations"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/reconciler"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/reconciler/pubsub"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/reconciler/topic/resources"
 
 	. "knative.dev/pkg/reconciler/testing"
 
-	. "github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler/testing"
+	. "github.com/googlecloudplatform/cloud-run-events/pkg/reconciler/testing"
 )
 
 const (

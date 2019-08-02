@@ -24,7 +24,7 @@ import (
 	"knative.dev/pkg/logging"
 	"knative.dev/pkg/signals"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/pubsub/operations"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/pubsub/operations"
 )
 
 func main() {

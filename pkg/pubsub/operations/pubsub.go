@@ -22,7 +22,7 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/pubsub"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/pubsub"
 )
 
 type PubSubOps struct {

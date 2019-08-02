@@ -19,11 +19,11 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/clientset/versioned"
-	messagingv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/clientset/versioned/typed/messaging/v1alpha1"
-	fakemessagingv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/clientset/versioned/typed/messaging/v1alpha1/fake"
-	pubsubv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/clientset/versioned/typed/pubsub/v1alpha1"
-	fakepubsubv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/clientset/versioned/typed/pubsub/v1alpha1/fake"
+	clientset "github.com/googlecloudplatform/cloud-run-events/pkg/client/clientset/versioned"
+	messagingv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/client/clientset/versioned/typed/messaging/v1alpha1"
+	fakemessagingv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/client/clientset/versioned/typed/messaging/v1alpha1/fake"
+	pubsubv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/client/clientset/versioned/typed/pubsub/v1alpha1"
+	fakepubsubv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/client/clientset/versioned/typed/pubsub/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

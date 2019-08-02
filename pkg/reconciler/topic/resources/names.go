@@ -21,7 +21,7 @@ import (
 
 	"knative.dev/pkg/kmeta"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
 )
 
 func GeneratePublisherName(topic *v1alpha1.Topic) string {

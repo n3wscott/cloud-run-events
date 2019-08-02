@@ -19,7 +19,7 @@ package test
 import (
 	"context"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/pubsub"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/pubsub"
 )
 
 // Subscription implements Client.Subscription.

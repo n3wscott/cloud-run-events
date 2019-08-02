@@ -20,9 +20,9 @@ import (
 	// Uncomment the following line to load the gcp plugin (only required to authenticate against GKE clusters).
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler/channel"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler/pullsubscription"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler/topic"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/reconciler/channel"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/reconciler/pullsubscription"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/reconciler/topic"
 
 	"knative.dev/pkg/injection/sharedmain"
 )

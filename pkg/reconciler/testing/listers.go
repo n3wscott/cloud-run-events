@@ -38,11 +38,11 @@ import (
 	fakesharedclientset "knative.dev/pkg/client/clientset/versioned/fake"
 	fakeservingclientset "knative.dev/serving/pkg/client/clientset/versioned/fake"
 
-	MessagingV1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/messaging/v1alpha1"
-	pubsubv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
-	fakeeventsclientset "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/clientset/versioned/fake"
-	eventslisters "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/listers/messaging/v1alpha1"
-	pubsublisters "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/listers/pubsub/v1alpha1"
+	MessagingV1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/apis/messaging/v1alpha1"
+	pubsubv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
+	fakeeventsclientset "github.com/googlecloudplatform/cloud-run-events/pkg/client/clientset/versioned/fake"
+	eventslisters "github.com/googlecloudplatform/cloud-run-events/pkg/client/listers/messaging/v1alpha1"
+	pubsublisters "github.com/googlecloudplatform/cloud-run-events/pkg/client/listers/pubsub/v1alpha1"
 )
 
 var sinkAddToScheme = func(scheme *runtime.Scheme) error {

@@ -40,11 +40,11 @@ import (
 	"knative.dev/pkg/logging"
 	"knative.dev/pkg/tracker"
 
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
-	listers "github.com/GoogleCloudPlatform/cloud-run-events/pkg/client/listers/pubsub/v1alpha1"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/duck"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler/pubsub"
-	"github.com/GoogleCloudPlatform/cloud-run-events/pkg/reconciler/pullsubscription/resources"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
+	listers "github.com/googlecloudplatform/cloud-run-events/pkg/client/listers/pubsub/v1alpha1"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/duck"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/reconciler/pubsub"
+	"github.com/googlecloudplatform/cloud-run-events/pkg/reconciler/pullsubscription/resources"
 )
 
 const (

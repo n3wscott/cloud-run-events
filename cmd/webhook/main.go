@@ -33,8 +33,8 @@ import (
 	"knative.dev/pkg/version"
 	"knative.dev/pkg/webhook"
 
-	MessagingV1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/messaging/v1alpha1"
-	pubsubv1alpha1 "github.com/GoogleCloudPlatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
+	MessagingV1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/apis/messaging/v1alpha1"
+	pubsubv1alpha1 "github.com/googlecloudplatform/cloud-run-events/pkg/apis/pubsub/v1alpha1"
 )
 
 const (
